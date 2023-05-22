@@ -1,5 +1,6 @@
 import './App.css';
 import mulgogiLogo from './imagenes/imagen-logo.png';
+import TareaFormulario from './componentes/TareaFormulario';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </div>
       <div className = 'to-do-lista-principal'>
         <h1> To do List</h1>
-        
+        <TareaFormulario />
       </div>
     </div>
   );
