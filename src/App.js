@@ -1,10 +1,10 @@
 import './App.css';
 import mulgogiLogo from './imagenes/imagen-logo.png';
-import TareaFormulario from './componentes/TareaFormulario';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <div className= 'mulgogi-logo-contenedor'>
       <img 
       src={mulgogiLogo} 
@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className = 'to-do-lista-principal'>
         <h1> To do List</h1>
-        <TareaFormulario />
+          <ListaDeTareas />
       </div>
     </div>
   );
